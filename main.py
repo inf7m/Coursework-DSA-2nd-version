@@ -1,7 +1,7 @@
-from property import Property
-from property_agent import PropertyAgent
-from director import Director
-from commission_slip import CommissionSlip
+from Property import Property
+from PropertyAgent import PropertyAgent
+from Director import Director
+from CommissionSlip import CommissionSlip
 
 def create_properties(n):
     props = []
