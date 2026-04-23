@@ -12,11 +12,11 @@ The program demonstrates key OOP concepts including inheritance, encapsulation, 
 ```
 project/
 │
-├── property.py              # Base Property class
-├── commercial_property.py   # Inherits from Property
-├── property_agent.py        # Handles property lists and commission
-├── director.py              # Inherits from PropertyAgent
-├── commission_slip.py       # Prints commission reports
+├── Property.py              # Base Property class
+├── CommercialProperty.py   # Inherits from Property
+├── Property.py            # Handles property lists and commission
+├── Director.py              # Inherits from PropertyAgent
+├── CommissionSlip.py       # Prints commission reports
 └── main.py                  # Entry point (creates data & runs program)
 ```
 
@@ -59,41 +59,3 @@ python main.py
 ```
 
 ---
-
-## 📊 Program Output
-
-The program will display:
-- Commission breakdown for each property sold
-- Total commission earned by each agent
-- Override commission earned by each director
-- Total income for each director
-
----
-
-## 🧠 OOP Design
-
-- **Inheritance**
-  - `CommercialProperty` extends `Property`
-  - `Director` extends `PropertyAgent`
-
-- **Encapsulation**
-  - Each class manages its own data and behaviour
-
-- **Modularity**
-  - Each class is implemented in a separate file
-
----
-
-## 🎯 Coursework Requirements Covered
-
-- ✔ At least 2 directors  
-- ✔ Each director has at least 3 agents  
-- ✔ Each agent has:
-  - ≥ 5 unsold properties  
-  - 3–10 sold properties  
-- ✔ Commission slip printed for all agents and directors  
-
----
-
-## 👨‍💻 Author
-Coursework Project – Algorithms & Data Structures
