@@ -1,4 +1,4 @@
-from property_agent import PropertyAgent
+from PropertyAgent import PropertyAgent
 
 class Director(PropertyAgent):
     def __init__(self, name, reg_no, company, start_year, sharing_rate=0.75, override_rate=0.05):
